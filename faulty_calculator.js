@@ -1,3 +1,10 @@
+/*This is a faluty calculator which is 10% inaccurate, and performs various wrong set of operatons with the probablity of 10%.
+Inaccuracy of this calculator is as follows:
+1. + ---> -
+2. - ---> +
+3. * ---> /
+4. / ---> **
+*/
 console.log("Enter Two Numbers");
 
 let num1 = +prompt("Enter First Number");
